@@ -15,23 +15,22 @@ const Footer = () => {
           <div className=" px-4 py-8 ">
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
               <a href="/#home" className="">
-                COZ
-                <span className="inline-block font-bold text-primary">WEB</span>
+                <span>4K </span>
+                <span className="inline-block font-bold text-primary">LABS</span>
               </a>
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+            Specializing in web development, CRM systems, and tech consulting, 4K LABS is your trusted partner in innovation.{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>Michael Campbell</p>
             </div>
-            <div className="mt-3 flex items-center gap-3">
+            {/* <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
-            </div>
+              <p>+1 123456789</p>
+            </div> */}
             {/* Social Handle */}
           </div>
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 ">
@@ -83,7 +82,7 @@ const Footer = () => {
                   <h1>Subscribe to our newsletter</h1>
                   <input
                     className="rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 "
-                    type="text"
+                    type="email"
                     placeholder="Email"
                   />
                   <div className="mt-6 flex items-center gap-3">
@@ -104,7 +103,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
-            @copyright 2024 Travery || Dilshad
+            @Copyright 2025 4KLABS || MC
           </div>
         </div>
       </section>

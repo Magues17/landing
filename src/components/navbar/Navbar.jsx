@@ -62,9 +62,9 @@ const Navbar = () => {
       <nav className="container  flex h-[70px] items-center justify-between py-2 ">
         <div className="text-2xl text-white md:text-3xl ">
           <a href="/#home" className="">
-            COZ
+            4K
             <span className="inline-block font-bold text-primary dark:text-black">
-              WEB
+              Labs
             </span>
           </a>
         </div>
@@ -111,13 +111,13 @@ const Navbar = () => {
                     <div className="grid grid-cols-3 ">
                       <ul className="mt-3 flex flex-col gap-2">
                         <h1 className="pb-1 text-xl font-semibold">
-                          Development
+                          SaaS Development
                         </h1>
                         <li className="cursor-pointer text-black/80 hover:text-primary">
                           Web development
                         </li>
                         <li className="cursor-pointer text-black/80 hover:text-primary">
-                          IOS App Development
+                          Game Development
                         </li>
                         <li className="cursor-pointer text-black/80 hover:text-primary">
                           App Development
@@ -154,8 +154,8 @@ const Navbar = () => {
               </li>
               <li>
                 <div>
-                  <p className="text-sm">Call us on</p>
-                  <p className="text-lg">+91 123456789</p>
+                  <p className="text-sm">Request a Demo</p>
+                  <p className="text-lg"></p>
                 </div>
               </li>
             </div>
