@@ -16,27 +16,21 @@ const BannerDetails = ({ reverse, img }) => {
               } `}
             >
               <h1 className="text-2xl md:text-4xl ">
-                We Build Apps That Get Trending On Appworld
+                Elevate Your Business with Custom Solutions
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                ducimus eius quis ad enim aliquid iusto eum nihil exercitationem
-                necessitatibus?
+                I develop cutting-edge web applications, AI-powered tools, and game development solutions that drive engagement and efficiency.
               </p>
               <div>
-                <ul className="flex list-inside list-disc flex-col gap-2  md:gap-4">
-                  <li className="font-medium">
-                    Lorem ipsum adipisicing elit. Cum, vel.
-                  </li>
-                  <li className="font-medium">
-                    dlss ipsum adipisicing elit. Cum, vel.
-                  </li>
-                  <li className="font-medium">adipisicing elit. Cum, vel.</li>
+                <ul className="flex list-inside list-disc flex-col gap-2 md:gap-4">
+                  <li className="font-medium">Custom Web & CRM Development</li>
+                  <li className="font-medium">AI & Automation Integration</li>
+                  <li className="font-medium">Game Development (Unity & Unreal Engine)</li>
                 </ul>
               </div>
               <div className="space-x-4">
                 <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
-                  Get Started
+                  Get a Free Consultation
                 </button>
               </div>
             </div>
@@ -48,7 +42,7 @@ const BannerDetails = ({ reverse, img }) => {
             >
               <img
                 src={img}
-                alt="No image"
+                alt="Custom Solutions"
                 className="max-auto w-full hover:drop-shadow-md"
               />
             </div>

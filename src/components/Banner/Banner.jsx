@@ -1,32 +1,19 @@
 import React from "react";
-import BannerImg from "../../assets/marketing-speaker.png";
 
 const Banner = () => {
   return (
-    <main className="bg-primary ">
+    <main className="bg-primary">
       <section data-aos="fade-up" className="container py-8 md:py-12">
-        <div className="grid grid-cols-1 items-center gap-4 sm:text-ellipsis md:grid-cols-3 md:gap-8">
-          <div className=" order-2 flex flex-col items-center gap-4 text-center text-white md:col-span-2  md:items-start md:text-left ">
-            <h1 className="text-3xl font-bold ">Market your Brand</h1>
-            <p className="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              ducimus eius quis ad enim aliquid iusto eum nihil exercitationem
-              necessitatibus?
-            </p>
-            <button className="rounded-md bg-white px-4 py-2 text-sm  text-black transition-colors duration-300 hover:bg-white/90">
-              Get Started
-            </button>
-          </div>
-          <div className="order-1">
-            <iframe
-              className="aspect-video w-full"
-              src="https://www.youtube.com/embed/gRWMen27Uio?si=VtHMh9xCxQ6ccFh8"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div className="flex flex-col items-center text-center text-white md:items-start md:text-left">
+          <h1 className="text-3xl font-bold">Empower Your Business with Custom Digital Solutions</h1>
+          <p className="mt-4 max-w-2xl">
+            I specialize in **web development, CRM systems, AI integrations, and game development** using cutting-edge
+            technologies like **React, WordPress, Unity, Unreal Engine, and Neural Networks**. Whether you need a business website, 
+            an automated CRM, or a powerful AI-driven solution, I can help bring your ideas to life.
+          </p>
+          <button className="mt-4 rounded-md bg-white px-4 py-2 text-sm text-black transition-colors duration-300 hover:bg-white/90">
+            Get a Free Consultation
+          </button>
         </div>
       </section>
     </main>
