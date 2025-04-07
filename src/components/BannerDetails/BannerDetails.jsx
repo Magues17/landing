@@ -31,11 +31,11 @@ const BannerDetails = ({ reverse, img }) => {
                 <li className="font-medium">Analytics & Performance Reporting</li>
               </ul>
               </div>
-              <div className="space-x-4">
+              {/* <div className="space-x-4">
                 <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
                   Get a Free Consultation
                 </button>
-              </div>
+              </div> */}
             </div>
             <div
               data-aos="fade-left"
