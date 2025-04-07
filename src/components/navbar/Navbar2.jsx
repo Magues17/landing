@@ -375,3 +375,6 @@ const Navbar2 = ({ onOpenModal }) => {
 };
 
 export default Navbar2;
+
+
+

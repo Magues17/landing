@@ -98,9 +98,15 @@ function App() {
         <Blogs />
         <Footer />
       </div>
-
+      {/* Hidden trigger button for global modal access */}
+      <button
+            id="demoModalTrigger"
+            onClick={handleOpenModal}
+            className="hidden"
+          />
       {/* Render the Modal */}
       {showModal && <DemoModal onClose={handleCloseModal} />}
+      
     </>
   );
 }
