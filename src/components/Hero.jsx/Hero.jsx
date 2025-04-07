@@ -70,7 +70,6 @@ const Hero = ({ onOpenModal }) => {
               From cutting-edge SaaS solutions to robust MVP development, we craft digital experiences tailored to your business goals.
             </p>
             <div className="space-x-4">
-            
 
               <button
                 className="rounded-md bg-primary px-6 py-3 text-lg text-white transition-colors duration-300 hover:bg-primary/80"

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Img1 from "../../assets/blog1.jpg";
 import Img2 from "../../assets/blog2.jpg";
-import Img3 from "../../assets/blog3.jpg";
+import Img3 from "../../assets/gamedevelopment.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -66,5 +66,7 @@ const Blogs = () => {
     </main>
   );
 };
+
+
 
 export default Blogs;
