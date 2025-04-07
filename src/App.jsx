@@ -61,6 +61,7 @@ import Footer from "./components/Footer/Footer";
 import Banner from "./components/Banner/Banner";
 import Banner1 from "./assets/blog1.jpg";
 import Banner2 from "./assets/blog3.jpg";
+import BannerDetails2 from "./components/BannerDetails/BannerDetails2";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -92,7 +93,7 @@ function App() {
         {/* Other Sections */}
         <Service />
         <BannerDetails reverse={true} img={Banner1} />
-        <BannerDetails img={Banner2} />
+        <BannerDetails2 img={Banner2} />
         <Banner />
         <Blogs />
         <Footer />
