@@ -15,17 +15,20 @@ const BannerDetails2 = ({ reverse, img }) => {
               }`}
             >
               <h1 className="text-2xl md:text-4xl">
-                Your Custom Banner Title
+              Empower Your Business with Cutting-Edge Web Solutions
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                This is the content for BannerDetails2. Customize it independently from BannerDetails.
-              </p>
+                Harness the power of modern technologies and advanced frameworks to build 
+                secure, scalable applications. From intuitive user experiences to robust 
+                back-end systems, we deliver solutions that drive innovation and growth.
+                </p>
               <div>
-                <ul className="flex list-inside list-disc flex-col gap-2 md:gap-4">
-                  <li className="font-medium">Unique Feature One</li>
-                  <li className="font-medium">Unique Feature Two</li>
-                  <li className="font-medium">Unique Feature Three</li>
-                </ul>
+              <ul className="flex list-inside list-disc flex-col gap-2 md:gap-4">
+                <li className="font-medium">Full-Stack Web & App Development</li>
+                <li className="font-medium">Cloud Integration & Microservices</li>
+                <li className="font-medium">AI-Driven Data Analytics & Insights</li>
+                <li className="font-medium">Ongoing Maintenance & Performance Optimization</li>
+             </ul>
               </div>
               <div className="space-x-4">
                 <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">

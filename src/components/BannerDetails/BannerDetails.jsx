@@ -16,17 +16,20 @@ const BannerDetails = ({ reverse, img }) => {
               } `}
             >
               <h1 className="text-2xl md:text-4xl ">
-                Elevate Your Business with Custom Solutions
+              Boost Your Online Presence with Social Media Marketing
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                I develop cutting-edge web applications, AI-powered tools, and game development solutions that drive engagement and efficiency.
+              Reach and engage your audience on the platforms they use every day. I specialize 
+              in crafting targeted social media strategies that amplify your brand, foster 
+              community growth, and drive measurable results.
               </p>
               <div>
-                <ul className="flex list-inside list-disc flex-col gap-2 md:gap-4">
-                  <li className="font-medium">Custom Web & CRM Development</li>
-                  <li className="font-medium">AI & Automation Integration</li>
-                  <li className="font-medium">Game Development (Unity & Unreal Engine)</li>
-                </ul>
+              <ul className="flex list-inside list-disc flex-col gap-2 md:gap-4">
+                <li className="font-medium">Social Media Strategy & Management</li>
+                <li className="font-medium">Content Creation & Scheduling</li>
+                <li className="font-medium">Paid Advertising & Campaign Optimization</li>
+                <li className="font-medium">Analytics & Performance Reporting</li>
+              </ul>
               </div>
               <div className="space-x-4">
                 <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
