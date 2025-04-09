@@ -25,7 +25,7 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Michael Campbell</p>
+              <p>Michael C</p>
             </div>
           </div>
 
